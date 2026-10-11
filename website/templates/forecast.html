@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+       .weather-info {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .forecast-info {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+  .rainy {
+    background-color: lightblue;}
+  .fog {
+    background-color: lightgreen; }
+        </style> -->
+
+    <link rel="stylesheet" href="../css/dashboardstyle.css">
+    <link rel="stylesheet" href="../css/forecast.css">
+    <script src="https://kit.fontawesome.com/6a84af992a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="sidebar">
+        <div class="white-label">
+        </div>
+        <div id="sidebar-nav">
+        <ul>
+            <li><a href="DashBoard.html"><i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
+            <li><a href="transaction.html"><i class="fa-solid fa-receipt"></i> Transactions</a></li>
+            <li class="active"><a href="forecast.html"><i class="fa-solid fa-cloud-sun-rain"></i> ForeCast</a></li>
+            <li><a href="airquality.html"><i class="fa-solid fa-smog"></i> Air</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+         </ul>
+        </div>
+        </section>
+
+        <section id="content">
+            <div id="header">
+                <div class="header-nav">
+                    <div class="menu-button"><!--<i class="fa fa-navicon"></i>--></div>
+                    <div class="nav">
+                        <ul>
+                            
+                            <li class="nav-profile">
+                                <div class="nav-profile-image">
+                                    <img
+                                        src="../images/desktop-wallpaper-anime-profile-pic-anime-profile.jpg"
+                                        alt="profile-img"
+                                        alt="profile image"
+                                    />
+                                    <div class="nav-profile-name">
+                                        Aastik Sharma<i class="fa fa-caret-down"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+            <div  class="content" id="fore">
+                <div class="content-header">
+                    <h1>Hi Farmer</h1>
+                    <p>Welcome Back!!</p>
+                </div>
+               
+                <!-- Write here div -->
+                  <h1 style="color: #333; text-align: center;">ForeCast</h1>
+                
+                  <form id="weatherForm" class="glass-form">
+                    <label for="city">Enter City Name:</label>
+                    <input type="text" id="city" name="city"><br><br>
+                
+                    <label for="language">Select Language:</label>
+                    <select id="language" name="language">
+                      <option value="en">English</option>
+                      <!-- Add other language options as needed -->
+                    </select><br><br>
+                
+                    <button type="button" onclick="getWeather()">Get Weather</button>
+                  </form>
+                
+                  <div id="weatherData" class="weather-info"></div>
+                  <div id="forecastData"></div>
+                </div>
+        </section>
+</body>
+<script src="../js/forecast.js"></script>
+</html>
+
+
+<!-- 
+    Clear sky
+Clouds
+Rain
+Drizzle
+Thunderstorm
+Snow
+Mist
+Fog
+Smoke
+Haze
+Sand Whirls
+Tornado
+
+ -->
+
+
+<!-- 
+    Multilingual support
+
+af Afrikaans
+al Albanian
+ar Arabic
+az Azerbaijani
+bg Bulgarian
+ca Catalan
+cz Czech
+da Danish
+de German
+el Greek
+en English
+eu Basque
+fa Persian (Farsi)
+fi Finnish
+fr French
+gl Galician
+he Hebrew
+hi Hindi
+hr Croatian
+hu Hungarian
+id Indonesian
+it Italian
+ja Japanese
+kr Korean
+la Latvian
+lt Lithuanian
+mk Macedonian
+no Norwegian
+nl Dutch
+pl Polish
+pt Portuguese
+pt_br Português Brasil
+ro Romanian
+ru Russian
+sv, se Swedish
+sk Slovak
+sl Slovenian
+sp, es Spanish
+sr Serbian
+th Thai
+tr Turkish
+ua, uk Ukrainian
+vi Vietnamese
+zh_cn Chinese Simplified
+zh_tw Chinese Traditional
+zu Zulu
+ -->

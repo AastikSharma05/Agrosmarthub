@@ -1,0 +1,250 @@
+.weather-info {
+    background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.14);
+color: #333;
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+  }
+  .weather-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+
+  .weather-condition {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  .forecast-info {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+
+/* Styles for the glass effect form */
+.glass-form {
+ /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(255, 255, 255, 0.14);
+color: #333;
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+}
+
+
+
+  /* Styles for the form */
+/* form {
+    color: #333;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  } */
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  #forecastData {
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E9EEF4;
+    color: #333;
+    position: absolute;
+    text-align: center;
+    width: 84%;
+    margin-left: 5px;
+    
+  }
+  
+/* Styles for the forecast boxes */
+.forecast-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 210px;
+}
+
+/* Left side of the forecast box */
+.forecast-info .left-info {
+  text-align: left;
+}
+
+/* Right side of the forecast box */
+.forecast-info .right-info {
+  text-align: right;
+}
+
+/* Styling for different weather conditions */
+.clear {
+  background-color: #f0f0f0; /* Grey for clear weather */
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hot {
+  background-color: #ff9999; /* Red for hot weather */
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cold {
+  background-color: #99ccff; /* Blue for cold weather */
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.normal {
+  background-color: #eaeaea; /* Default background color */
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Hover effect */
+.forecast-info:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+  /* .forecast-info{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #E9EEF4;
+    width: 210px;
+    float: left;
+  } */
+
+  /* .forecast-info p
+  {
+    text-align: left;
+    
+  } */
+
+
+.sky{
+  background-image: url("../images/scattered.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.cloud
+  {
+    background-image: url("../images/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.rain
+    {
+      background-image: url("../images/rain.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+  }
+.drizzle{
+  background-image: url("../images/drizzle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thunderstorm{
+  background-image: url("../images/rain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.snow{
+  background-image: url("../images/snow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.mist{
+  background-image: url("../images/mist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fog{
+  background-image: url("../images/mist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.smoke{
+  background-image: url("../images/smoke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.haze{
+  background-image: url("../images/haze.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.scattered{
+  background-image: url("../images/scattered.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

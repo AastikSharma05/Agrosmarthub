@@ -1,0 +1,283 @@
+{
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "transaction": "EXPENSE",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 15
+      },
+      {
+        "date": "2023-08-01",
+        "transaction": "EXPENSE",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 17
+      },
+      {
+        "date": "2023-08-01",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 18
+      },
+      {
+        "date": "2023-07-31",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "2",
+        "id": 19
+      },
+      {
+        "date": "2023-08-01",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "1234",
+        "id": 20
+      },
+      {
+        "date": "2023-08-16",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 22
+      },
+      {
+        "date": "2023-08-03",
+        "transaction": "EXPENSE",
+        "description": "AI SERVICES",
+        "amount": "1500",
+        "id": 23
+      },
+      {
+        "date": "2023-08-14",
+        "transaction": "EXPENSE",
+        "description": "ITEM Purchase",
+        "amount": "345",
+        "id": 24
+      },
+      {
+        "date": "2023-08-01",
+        "transaction": "EXPENSE",
+        "description": "AI SERVICES",
+        "amount": "2000",
+        "id": 27
+      },
+      {
+        "date": "2023-07-30",
+        "transaction": "EXPENSE",
+        "description": "Labor Costs",
+        "amount": "123",
+        "id": 29
+      },
+      {
+        "date": "2022-10-21",
+        "transaction": "EXPENSE",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 30
+      },
+      {
+        "date": "2023-07-31",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "2000",
+        "id": 32
+      },
+      {
+        "date": "2023-08-29",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "5000",
+        "id": 34
+      },
+      {
+        "date": "2023-12-01",
+        "transaction": "INCOME",
+        "description": "Meat Sales",
+        "amount": "50000",
+        "id": 35
+      },
+      {
+        "date": "2023-08-22",
+        "transaction": "INCOME",
+        "description": "ITEM Purchase",
+        "amount": "322",
+        "id": 37
+      },
+      {
+        "date": "2023-08-07",
+        "transaction": "EXPENSE",
+        "description": "AI SERVICES",
+        "amount": "123",
+        "id": 38
+      },
+      {
+        "date": "2023-08-03",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "1234",
+        "id": 39
+      },
+      {
+        "date": "2023-08-01",
+        "transaction": "EXPENSE",
+        "description": "Milk Sales",
+        "amount": "123",
+        "id": 40
+      },
+      {
+        "date": "2023-08-08",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "5000",
+        "id": 42
+      },
+      {
+        "date": "2023-08-06",
+        "transaction": "EXPENSE",
+        "description": "ITEM Purchase",
+        "amount": "5000",
+        "id": 43
+      },
+      {
+        "date": "2023-08-16",
+        "transaction": "EXPENSE",
+        "description": "ITEM Purchase",
+        "amount": "7000",
+        "id": 44
+      },
+      {
+        "date": "2023-08-13",
+        "transaction": "INCOME",
+        "description": "Milk Sales",
+        "amount": "60000",
+        "id": 45
+      },
+      {
+        "date": "2023-08-06",
+        "transaction": "EXPENSE",
+        "description": "Milk Sales",
+        "amount": "1234",
+        "id": 46
+      }
+    ],
+    "contact-messages": [
+      {
+        "name": "JAN",
+        "email": "jankimutai1806@gmail.com",
+        "message": "Test Message",
+        "id": 1
+      },
+      {
+        "name": "Bonie",
+        "email": "bonie@bonie.com",
+        "message": "Keisher said Hi",
+        "id": 2
+      },
+      {
+        "name": "JAN",
+        "email": "steve@steve.com",
+        "message": "Test Message",
+        "id": 3
+      },
+      {
+        "name": "BiN",
+        "email": "bin@bin.com",
+        "message": "Test Message",
+        "id": 4
+      },
+      {
+        "name": "BiN",
+        "email": "jankimutai1806@gmail.com",
+        "message": "11",
+        "id": 5
+      },
+      {
+        "name": "BiN",
+        "email": "bin@bin.com",
+        "message": "Message test",
+        "id": 6
+      },
+      {
+        "name": "JAN",
+        "email": "jankimutai1806@gmail.com",
+        "message": "Test Message",
+        "id": 7
+      },
+      {
+        "name": "Alvin",
+        "email": "alvin@alvin.com",
+        "message": "Message test",
+        "id": 8
+      },
+      {
+        "name": "Test",
+        "email": "test@test.com",
+        "message": "Make it work",
+        "id": 9
+      }
+    ],
+    "users": [
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "12345",
+        "id": 1
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "12345",
+        "id": 2
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "test post",
+        "id": 3
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "123",
+        "id": 4
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "123",
+        "id": 5
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "123",
+        "id": 6
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "123",
+        "id": 7
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "123",
+        "id": 8
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "1234",
+        "id": 9
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "1234",
+        "id": 10
+      },
+      {
+        "email": "jankimutai1806@gmail.com",
+        "password": "1234",
+        "id": 11
+      },
+      {
+        "email": "test@gmail.com",
+        "password": "Test123",
+        "id": 12
+      }
+    ]
+  }

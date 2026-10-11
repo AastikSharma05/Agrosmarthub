@@ -1,0 +1,125 @@
+/* 
+163020
+304D30
+B6C4B6
+EEF0E5 */
+/*   
+  #airPollutionForm label{
+    font-size: 25px;
+    float: left;
+    margin-left: 38%;
+  } */
+
+/* #airPollutionForm input{
+    
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+    margin-left: 10px;
+
+    width: 15%;
+    float: left;
+  } */
+/* form {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button[type='submit'] {
+    
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 40%;
+    margin-left: 45%;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  #airPollutionResults {
+    margin-left: 35%;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    margin-bottom: 20px;
+    width: 30%;
+
+  }
+  
+  #airPollutionResults p {
+    margin: 5px 0;
+    padding-bottom: 10px;
+  } */
+
+#airPollutionForm {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+#airPollutionForm label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+#airPollutionForm input[type="text"] {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#airPollutionForm button {
+  background-color: #304d30;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#airPollutionForm button:hover {
+  background-color: #45a049;
+}
+
+#airPollutionResults {
+  margin-top: 20px;
+  margin-left: 37%;
+  width: 25%;
+  background-color: #eef0e5;
+  color: #304d30;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

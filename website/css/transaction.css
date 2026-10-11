@@ -1,0 +1,177 @@
+#input{
+    color: #333;
+}
+/* Example CSS, adjust according to your needs */
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #transaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #calculator {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;    
+  }
+
+
+  
+  #form-holder {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="number"],
+  input[type="text"],
+  select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #appendTransaction {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  /* CSS for transaction.css */
+
+/* ... (existing styles) ... */
+
+#summary {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .summary-box {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #income {
+    padding: 5px 5px 5px 5px;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #expense {
+    padding: 5px 5px 5px 5px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #balance {
+    padding: 5px 5px 5px 5px;
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  #appendTransaction {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  #transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+ 
+
+  
+  #transaction-table th,
+  #transaction-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+  }
+
+#transaction-table td.no-border {
+    border: none;
+}
+  
+  #transaction-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+
+  
+  /* Optional styling for alternating row colors */
+
+   /* Existing styles */
+
+
+button.delBTN {
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+ 
