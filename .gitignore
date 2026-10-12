@@ -5,5 +5,4 @@ venv/
 .venv/
 
 # Large Model Files
-Functionalities/*.h5
 Functionalities/*.data-00000-of-00001
